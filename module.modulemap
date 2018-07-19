@@ -19,11 +19,6 @@ module CFFmpeg [system] {
         link "avfilter"
         export *
     }
-    module AVResample {
-        header "avresample_shim.h"
-        link "avresample"
-        export *
-    }
     module Swscale {
         header "swscale_shim.h"
         link "swscale"
